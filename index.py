@@ -10,6 +10,9 @@ while running:
     while player not in option:
         player = input("Rock, Paper or Scissors? (Enter rock / paper / scissors): ")
 
+    print(f"\nYou: {player}")
+    print(f"Computer: {computer}\n")
+
     if player == computer:
         print("Tie!")
     elif player == "rock" and computer == "scissors":
@@ -21,12 +24,11 @@ while running:
     else:
         print("You lose...")
     
-    again = input("Wanna play again? (y/n): ").lower()
-    
-    if not again == "yes" or "y":
+    if not input("Play again? (y/n): ").lower() == "y":
         running = False
 
-print("alright thanks for playing")
+print("\nAlright thanks for playing")
+print("\nSource Code: \nhttps://github.com/yin070406/simple_python_project/tree/rock-paper-scissors")
 
 
 
