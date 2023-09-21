@@ -1,4 +1,4 @@
-# simple_python_project
+# Python Project
 
 Click on the "main"
 And select topic
